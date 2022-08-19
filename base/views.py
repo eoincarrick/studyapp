@@ -6,19 +6,24 @@ rooms = [
     {
         'id': 1,
         'name': 'Eoin Carrick'
-    },    {
+    },
+    {
         'id': 1,
         'name': 'Eoin Carrick'
-    },    {
+    },
+    {
         'id': 1,
         'name': 'Eoin Carrick'
-    },    {
+    },
+    {
         'id': 1,
         'name': 'Eoin Carrick'
-    },    {
+    },
+    {
         'id': 1,
         'name': 'Eoin Carrick'
-    },    {
+    },
+    {
         'id': 1,
         'name': 'Eoin Carrick'
     }

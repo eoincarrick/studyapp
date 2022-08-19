@@ -5,35 +5,40 @@ from django.http import HttpResponse
 rooms = [
     {
         'id': 1,
-        'name': 'Eoin Carrick'
+        'name': 'Eck'
     },
     {
-        'id': 1,
-        'name': 'Eoin Carrick'
+        'id': 2,
+        'name': 'Eok'
     },
     {
-        'id': 1,
-        'name': 'Eoin Carrick'
+        'id': 3,
+        'name': 'Eoink'
     },
     {
-        'id': 1,
-        'name': 'Eoin Carrick'
+        'id': 4,
+        'name': 'Eoirick'
     },
     {
-        'id': 1,
-        'name': 'Eoin Carrick'
+        'id': 5,
+        'name': 'EoCa'
     },
     {
-        'id': 1,
-        'name': 'Eoin Carrick'
+        'id': 6,
+        'name': 'Eoin V'
+    },
+    {
+        'id': 7,
+        'name': 'Essel'
     }
 ]
 
 
 # Create your views here.
 def home(request):
-    return render(request, 'home.html')
+    context = {'rooms': rooms}
+    return render(request, 'base/home.html', context)
 
 
-def room(request):
-    return render(request, 'room.html')
+def room(request, pk):
+    return render(request, 'base/room.html')
